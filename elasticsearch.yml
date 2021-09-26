@@ -68,6 +68,8 @@ network.host: 0.0.0.0
 # The default list of hosts is ["127.0.0.1", "[::1]"]
 #
 #discovery.seed_hosts: ["host1", "host2"]
+discovery.type: single-node
+node.data : true
 #
 # Bootstrap the cluster using an initial set of master-eligible nodes:
 #
@@ -80,3 +82,4 @@ network.host: 0.0.0.0
 # Require explicit names when deleting indices:
 #
 #action.destructive_requires_name: true
+action.auto_create_index: .monitoring*,.watches,.triggered_watches,.watcher-history*,.ml*
