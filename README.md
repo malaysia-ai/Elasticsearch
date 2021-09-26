@@ -8,3 +8,6 @@ Store general purpose for texts. If you part of the organization, you can access
 ```bash
 sudo bash install.sh
 ```
+
+2. Checkout [how-to-request-from-localhost.ipynb](how-to-request-from-localhost.ipynb) to query elasticsearch from anywhere.
+
