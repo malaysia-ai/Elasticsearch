@@ -13,7 +13,7 @@ sudo bash install.sh
 
 1. Checkout [how-to-request-from-localhost.ipynb](how-to-request-from-localhost.ipynb) to query elasticsearch from anywhere,
 
-```json
+```text
 {'name': 'malaysia-ai',
  'cluster_name': 'elasticsearch',
  'cluster_uuid': '',
