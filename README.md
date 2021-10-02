@@ -32,3 +32,9 @@ sudo bash install.sh
   "tagline" : "You Know, for Search"
 }
 ```
+
+But you are in Jupyterhub, you can curl directly to [http://localhost:9200](http://localhost:9200),
+
+```bash
+curl http://localhost:9200
+```
