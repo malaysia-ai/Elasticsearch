@@ -14,17 +14,21 @@ sudo bash install.sh
 1. Checkout [how-to-request-from-localhost.ipynb](how-to-request-from-localhost.ipynb) to query elasticsearch from anywhere,
 
 ```text
-{'name': 'malaysia-ai',
- 'cluster_name': 'elasticsearch',
- 'cluster_uuid': '',
- 'version': {'number': '7.15.0',
-  'build_flavor': 'default',
-  'build_type': 'deb',
-  'build_hash': '79d65f6e357953a5b3cbcc5e2c7c21073d89aa29',
-  'build_date': '2021-09-16T03:05:29.143308416Z',
-  'build_snapshot': False,
-  'lucene_version': '8.9.0',
-  'minimum_wire_compatibility_version': '6.8.0',
-  'minimum_index_compatibility_version': '6.0.0-beta1'},
- 'tagline': 'You Know, for Search'}
+{
+  "name" : "huseincomel-desktop",
+  "cluster_name" : "elasticsearch",
+  "cluster_uuid" : "WLWwNUhcTAaU7BGpsKwNkA",
+  "version" : {
+    "number" : "7.15.0",
+    "build_flavor" : "default",
+    "build_type" : "deb",
+    "build_hash" : "79d65f6e357953a5b3cbcc5e2c7c21073d89aa29",
+    "build_date" : "2021-09-16T03:05:29.143308416Z",
+    "build_snapshot" : false,
+    "lucene_version" : "8.9.0",
+    "minimum_wire_compatibility_version" : "6.8.0",
+    "minimum_index_compatibility_version" : "6.0.0-beta1"
+  },
+  "tagline" : "You Know, for Search"
+}
 ```
