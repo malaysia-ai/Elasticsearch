@@ -33,7 +33,7 @@ sudo bash install.sh
 }
 ```
 
-But you are in Jupyterhub, you can curl directly to [http://localhost:9200](http://localhost:9200),
+But if you are in https://jupyterhub.malaysiaai.ml/, you can request directly to http://localhost:9200,
 
 ```bash
 curl http://localhost:9200
